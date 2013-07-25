@@ -1,0 +1,998 @@
+/****************************************************
+#####################################################
+##-------------------------------------------------##
+##              TEQUOIA                            ##
+##-------------------------------------------------##
+## Copyright = globbersthemes.com- 2012            ##
+## Date      = juin 2012                           ##
+## Author    = globbers                            ##
+## Websites  = http://www.globbersthemes.com       ##
+##       VERSION JOOMLA                            ##
+#####################################################
+****************************************************/
+
+html {
+height: 100%;
+
+}
+
+body{
+margin:0;
+padding:0;
+text-align:center;
+background:#0a0a16 url(../images/bg.jpg) 50% 0 no-repeat ;
+font-size:13px;
+color:#0a0a16;
+font-family: arial, tahoma, sans-serif;
+font-weight:bold;
+
+}
+
+/*texte*/
+
+
+
+p {
+font-size: 100%;
+
+}
+
+h1 {
+font-size: 4em;
+font-family: 'Just Me Again Down Here', cursive;
+color: #8daab3;
+margin: 0px;
+
+}
+
+h2 {
+font-size: 150%;
+font-family: 'Just Me Again Down Here', cursive;
+
+}
+
+
+h3 {
+font-size: 125%;
+
+}
+
+h4, h5, h6 {
+font-size: 100%;
+
+}
+
+/* liens hypertextes*/ 
+a:link, a:visited {
+text-decoration:none;
+color:#0a0a16;
+font-weight:bold;
+
+}
+
+a:hover {
+color:#918d7c;
+
+}
+
+ul {
+margin:0;
+padding-left:20px;
+
+}
+
+li {
+list-style-type:disc;
+background:transparent;
+margin: 4px;
+
+}
+
+img {
+border:none;
+margin:3px 5px;
+padding:0;
+
+}
+
+img .caption {
+text-align: left;
+
+}
+
+.highlight{
+background:#efd02c url(../images/sep.png) repeat-x 0 100% ;
+padding: 0px 2px 0px 2px;
+color:#0a0a16;
+
+}
+
+.button {
+background:#efd02c url(../images/sep.png) repeat-x 0 100% ;
+border:none;
+color:#0a0a16;
+font-weight:bold;
+padding:4px;
+
+
+}
+
+.inputbox {
+color:#0a0a16;
+background:#efd02c url(../images/sep.png) repeat-x 0 100% ;
+border:none;
+padding:4px;
+font-weight:bold;
+
+}
+
+.pagewidth{
+width:899px;
+text-align:center;
+background:transparent;
+margin-left:auto;
+margin-right:auto;
+margin-top:0px;
+margin-bottom:0px;
+position:relative;
+
+}
+
+fieldset {
+margin:5px;
+padding:5px;
+border:none;
+
+}
+
+/*******************/
+#name {
+float:left;
+width:361px;
+height:164px;
+/*background: url(../images/bg-name.png) 0 0 no-repeat;*/
+margin-top:55px;
+margin-left:15px;
+
+}
+
+#sitename {
+float:left;
+width:361px;
+height:164px;
+
+}
+
+#quote {
+float:right;
+width:317px;
+height:100px;
+background:#efd02c;
+margin-top:210px;
+margin-right:15px;
+
+}
+
+#quote p {
+padding:5px 15px;
+font-size:27px;
+line-height:25px;
+font-family: 'Just Me Again Down Here', cursive;
+
+}
+
+/***************************/
+#topmenu {
+float:left;
+width:100%;
+height:80px;
+background: url(../images/topmenu.png) 0 0 repeat-x;
+margin-top:-5px;
+
+}
+
+.navigation {
+float:left;
+width: 100%;
+background:transparent;
+ margin-top:13px;
+ 
+}
+ 
+.navigation ul {
+list-style: none;
+margin:0;padding:0;
+
+}
+
+.navigation ul ul {
+margin: 0;
+padding: 0; 
+
+}
+
+.navigation ul li {
+margin:0px 0 0 0;
+padding: 0;
+float: left;
+list-style: none;
+background: none;
+display: block;	
+
+}
+
+.navigation ul li ul {
+width: 230px;
+position: absolute; 
+z-index: 99; 
+left: -999em; 
+height: auto;
+w\idth: 230px; 
+
+} 
+
+.navigation ul li ul ul {
+margin: 0;
+
+} 
+
+.navigation ul li li {
+padding: 0;
+margin: 0;
+width: 100%;
+
+}
+
+.navigation ul ul a {
+width: 100%;
+
+}
+
+.navigation ul li:hover ul ul,.navigation ul li:hover ul ul ul,.navigation ul li.sfhover ul ul,.navigation ul li.havechildsfhover ul ul,
+.navigation ul li.havechild-activesfhover ul ul,.navigation ul li.activesfhover ul ul,
+.navigation ul li.sfhover ul ul ul,.navigation ul li.havechildsfhover ul ul ul,
+.navigation ul li.havechild-activesfhover ul ul ul,.navigation ul li.activesfhover ul ul ul {
+ left: -999em;
+ 
+ }
+ 
+.navigation ul li:hover ul,.navigation ul li li:hover ul,.navigation ul li li li:hover ul,
+.navigation ul li.sfhover ul,.navigation ul li.havechildsfhover ul,.navigation ul li.havechild-activesfhover ul,
+.navigation ul li.activesfhover ul,.navigation ul li li.sfhover ul,.navigation ul li li.havesubchildsfhover ul,
+.navigation ul li li.havesubchild-activesfhover ul,.navigation ul li li.activesfhover ul,.navigation ul li li li.sfhover ul,
+.navigation ul li li li.havesubchildsfhover ul,.navigation ul li li li.havesubchild-activesfhover ul,.navigation ul li li li.activesfhover ul {
+left: auto;	
+
+}
+
+.navigation ul li a {
+padding: 25px 10px 0 10px ;
+ margin:0;
+ display: block; 
+ font-weight: bold;	
+ font-size:18px;
+ /*text-transform:capitalize;*/
+ font-family: 'Just Me Again Down Here', cursive;
+
+ height:36px;
+ background:transparent;
+ color:#0a0a16;
+ 
+}
+ 
+.navigation ul li a:hover {
+color:#FFFFFF;
+/*background:#0a0a16;*/
+
+}
+
+.navigation ul li {
+background: transparent ;
+/*border-left:1px solid #aea995;
+border-right:1px solid #cdc7ae;*/
+
+}
+/*.navigation ul li.active a {
+color:#efe9cf;
+background:#0a0a16;
+
+}*/ 
+
+.navigation ul li ul {
+background:#0a0a16;
+margin-top: 0px;
+padding-top:15px !important;
+padding-bottom: 15px !important;
+text-align:left !important;
+width:200px;
+border:none !important;
+
+}
+
+.navigation ul li ul li {
+padding-top:2px ;
+padding-bottom:0px ;
+background:none !important;
+border:none !important;
+
+}
+
+.navigation ul li ul li a{
+height:33px !important;
+color:#fff !important;
+text-align:left !important;
+padding-left:20px !important;
+padding-top:23px !important;
+width:172px !important;
+border:none !important;
+
+}
+
+.navigation ul li ul li a:hover  {
+color:#0a0a16 !important;
+height:33px ;
+background:#efd02c;
+border:none !important;
+
+}
+
+.navigation ul li ul li ul {
+margin-left:190px;
+margin-top: -30px;
+padding-top:10px !important;
+text-align:left !important;
+
+}
+
+/************************/
+#wrapper-slide {
+float:left;
+width:899px;
+height:402px;
+background: url(../images/bg-slide.png) 0 0 no-repeat;
+
+}
+
+#slide{
+float:left;
+width:839px;
+height:359px;
+margin-left:25px;
+margin-top:15px;
+margin-bottom:0px;
+background: url(../images/slide.jpg) 0 0 no-repeat;
+
+}
+
+/* The Nivo Slider styles */
+.nivoSlider {
+float:left;
+	position:relative;
+	width: 813px;
+	height: 313px;
+	margin-left: 8px;
+	margin-top: 10px;
+	background: url(../images/loading.gif) no-repeat 50% 50%;
+	border:8px solid #dcd7bf!important;
+}
+
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+    width:813px; /* Make sure your images are the same size */
+    height:313px; /* Make sure your images are the same size */
+	margin:0 !important;
+	padding:0 !important;
+	
+}
+.nivoSlider a {
+    border:0;
+    display:block;
+	color: #fff;
+}
+
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+}
+
+/* Caption styles */
+.nivo-caption {
+	position:absolute;
+	left: 50px;
+	/* right:0px; */
+	bottom:30px;
+	background:#010101;
+	color:#fff;
+	z-index:8;
+	width: 300px;
+	padding: 20px;
+	overflow: hidden;
+	font-size:18px !important;
+	
+}
+.nivo-caption p {
+	padding:0 !important;
+	margin:0 !important;
+	
+	
+}
+.nivo-caption a {
+	display:inline !important;
+	border-bottom: 1px dotted #fff;
+}
+.nivo-caption a:hover {
+	border-bottom-style: solid;
+	text-decoration: none;
+}
+.nivo-html-caption {
+    display:none;
+}
+
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+	position:absolute;
+	top:43%;
+	z-index:9;
+	cursor:pointer;
+	text-indent: -10000px;
+	background-image: url(../images/arrows.png);
+	background-repeat: no-repeat;
+	height:72px;
+	width:30px;
+	
+}
+.nivo-prevNav {
+	left:10px;
+	background-position: left top;
+}
+.nivo-nextNav {
+	right:10px;
+	background-position: -31px top;
+}
+
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {
+   display:none; 
+	
+}
+.nivo-controlNav a {
+   display:none; 
+}
+
+/*********************/
+#wrapper-main {
+float:left;
+width:100%;
+background: #FFF;
+/*#efe9cf url(../images/wrapper-main) 0 0 repeat;*/
+
+}
+
+.sep {
+float:left;
+width:100%;
+height:1px;
+background: url(../images/sep.png) repeat-x 0 0 ;
+
+}
+
+#wrapper-box {
+float:left;
+width:100%;
+background: url(../images/bg-box.jpg) repeat 0 0 ;
+
+}
+
+.box {
+float:left;
+width:222px;
+height:300px;
+background: url(../images/sep.png) repeat-y 100% 0 ;
+ padding-top:10px;
+padding-bottom:10px;
+
+}
+
+.box img,.box-f img{
+margin:0 0 5px 0;
+
+}
+
+.box-f {
+float:left;
+width:222px;
+
+padding-top:10px;
+padding-bottom:10px;
+
+}
+
+.box .moduletable,
+.box-f .moduletable,
+.box-f .moduletable_menu,
+.box .moduletable_menu {
+background:transparent;
+text-align:left;
+width:88%;
+margin-left:15px;
+margin-right:15px;
+font-size:12px;
+
+}
+
+.box .moduletable h3,
+.box-f .moduletable h3,
+.box-f .moduletable_menu h3,
+.box .moduletable_menu h3 {
+width:88%;
+margin-left:10px;
+text-transform:capitalize;
+
+}
+
+.box .moduletable ,
+.box-f .moduletable ,
+.box-f .moduletable_menu ,
+.box .moduletable_menu {
+background:transparent;
+text-align:left;
+width:88%;
+margin-left:15px;
+margin-right:15px;
+font-size:12px;
+
+}
+
+/******************/
+#colonne {
+float:left;
+width:222px;
+background: url(../images/sep.png) repeat-y 100% 0  ;
+
+}
+
+#left {
+float:left;
+background:transparent ;
+text-align:left;
+margin-top:2px;
+padding-bottom:25px;
+padding-top:14px;
+padding-right:20px;
+
+}
+
+#left .moduletable,
+#left .moduletable_menu {
+width:90%;
+margin-left:20px;
+margin-bottom:35px;
+padding-right:20px;
+
+}
+
+#left .moduletable h3,
+#left .moduletable_menu  h3{
+font-size:18px;
+font-weight:bold;
+background:transparent;
+text-transform:uppercase;
+background:#efd02c url(../images/sep.png) repeat-x 0 100% ;
+padding:10px;
+text-align:center;
+
+}
+
+#main {
+float:left;
+background:transparent;
+width:630px;
+padding:25px 0 0 20px;
+text-align:left;
+margin-bottom:20px;
+margin-left:0px;
+margin-right:16px;
+margin-top:15px;
+
+}
+
+#main-full {
+float:left;
+width:860px;
+text-align:left;
+margin-bottom:0px;
+background:transparent;
+margin-top:15px;
+margin-left:20px;
+
+}	
+
+/*********JOOMLA STYLE***********/
+ul.actions  {
+background:transparent;
+margin:0;
+
+}
+
+ul.actions  li{
+list-style:none;
+float:right;
+
+}
+
+.article-info {
+
+}
+
+dt.article-info-term {
+display:none;
+
+}
+
+dl.article-info dd{
+margin:0;
+font-size:12px;
+
+}
+
+.items-leading {
+width:100%;
+font-weight:normal;
+
+}
+
+.items-row {
+width:100%;
+font-weight:normal;
+
+}
+
+/***titre frontpage*****/
+.items-leading h2,.items-leading h2 a {
+font-size:18px;
+font-weight:bold;
+color:#0a0a16;
+background:#efd02c url(../images/sep.png) repeat-x 0 100% ;
+text-transform:uppercase;
+display:inline;
+padding:6px;
+text-align:center;
+
+} 
+
+.items-leading h2 a:hover {
+color:#fff;
+
+} 
+
+.items-row  h2,.items-row  h2 a{
+font-size:18px;
+font-weight:bold;
+color:#0a0a16;
+background:#efd02c url(../images/sep.png) repeat-x 0 100% ;
+text-transform:uppercase;
+display:inline;
+padding:6px;
+text-align:center;
+
+}
+
+.items-row  h2 a:hover {
+color:#fff;
+
+}
+
+/*****separation des articles******/
+.item-separator {
+height:40px;
+width:100%;
+display:block;
+
+}
+
+.item-page {
+width:100%;
+font-weight:normal;
+
+}
+
+.item-page h2 {
+font-size:18px;
+font-weight:bold;
+color:#0a0a16;
+background:#efd02c /*url(../images/sep.png) repeat-x 0 100%*/ ;
+text-transform:uppercase;
+display:inline;
+padding:6px;
+text-align:center;
+
+} 
+
+/****read more*****/
+.readmore a {
+float:right;
+font-weight: normal;
+padding:0px 0 0 15px;
+margin-right:15px;
+margin-top:5px;
+font-weight:bold;
+background:transparent ;
+
+}
+
+.readmore a:hover {
+
+
+}
+
+/************************/
+/* COLONNES article
+/************************/
+/************************/
+div.cols-1 .item {
+width: 100%; 
+
+}
+
+/* div.cols-2 .item {
+width: 44%;
+
+ }
+div.cols-3 .item {
+ width:28%;
+ 
+ }
+div.cols-4 .item {
+width: 20%;
+
+ }
+
+div.items-row .item {
+float: left; 
+
+} 
+
+div.item {
+ padding: 0 18px;
+ margin-bottom:25px;
+ 
+ } */
+ 
+ /************************/
+/*****CATEGORY***********/
+/************************/
+
+.categories-list {
+
+}
+
+.categories-list li {
+list-style:none;
+
+}
+
+.item-title {
+padding:5px 5px 20px 0;
+font-size:18px;
+font-weight:bold;
+text-transform:capitalize;
+
+}
+
+ul#archive-items li {
+list-style:none;
+
+}
+
+/* ++++++++++++++  items more  ++++++++++++++ */
+.items-more{
+padding-top:10px;
+
+}
+
+ .items-more h3{
+font-weight:normal;
+margin:0;
+padding:5px 5px 5px 5px;
+font-size:1.4em
+
+}
+
+ .items-more ol{
+line-height:1.3em;
+margin:0 0 0 20px;
+padding:5px 0 5px 2px;
+
+}
+
+ .items-more ol li{
+padding:2px;
+
+}
+
+ .items-more ol li a {
+display:inline;
+margin:0;
+font-weight:normal;
+ padding:5px;
+
+}
+
+ .items-more ol li a:hover,
+ .items-more ol li a:active,
+ .items-more ol li a:focus {
+font-weight:normal;
+padding:5px 5px 5px 5px;
+text-decoration:none
+
+} 
+
+/* Pagination ---*/
+
+ .counter {
+text-align:center;
+padding:10px 0;
+
+}
+
+ul.pagination {
+float: left;
+width: 100%;
+padding:10px 0;
+text-align:center;
+
+}
+
+ul.pagination li {
+background: none;
+display: inline;
+margin: 0;
+padding: 6px;
+margin:0 3px;
+overflow: hidden;
+
+}
+
+ul.pagination li span {
+padding: 6px; 
+line-height: 20px;
+background:#efd02c ;
+color:#010101;
+
+}
+
+ul.pagination a {
+background:#efd02c ;
+color:#010101;
+line-height: 20px;
+padding:6px;
+text-decoration: none;
+
+}
+
+ul.pagination a:hover, ul.pagination a:active, ul.pagination a:focus {
+color: #fff;
+text-decoration: none;
+background:#010101;
+
+} 
+
+/* ++++++++++++++  nav entre article  ++++++++++++++ */
+ ul.pagenav {
+ position:relative;
+ margin-top:25px;
+ 
+}
+ 
+ul.pagenav li {
+ list-style: none;
+ padding: 7px;
+background:#efd02c /*url(../images/sep.png) repeat-x 0 100%*/ ;
+ color:#fff;
+ 
+}
+
+ul.pagenav li a {
+list-style: none;
+padding: 7px;
+color:#fff;
+ 
+}
+ 
+ul.pagenav li:hover, ul.pagenav li:focus {
+background:#010101;
+color:#fff;
+ 
+}
+ 
+ul.pagenav li a:hover, ul.pagenav li a:focus { 
+text-decoration:none;
+color:#fff;
+
+}
+ 
+ul.pagenav li.pagenav-prev {
+float: left;
+ 
+}
+ 
+ul.pagenav li.pagenav-next { 
+float:right;
+
+}
+
+/***********************/
+#ftb-f {
+float:left;
+width:100%;
+height:80px;
+/*background: url(../images/topmenu.png) 0 0 repeat-x;*/
+margin-top:-5px;
+color:#0a0a16;
+
+}
+
+.ftb {
+margin-top:35px;
+text-align:center;
+font-weight:bold;
+font-size:16px;
+width:900px;
+float:left;
+color:#ebebeb;
+font-family: 'Just Me Again Down Here', cursive;
+}
+
+ .ftb a, .ftb a:visited{
+padding:0 !important;
+border:none !important;
+color:#0a0a16;
+
+} 
+
+.ftb a:hover {
+color:#0a0a16;
+
+} 
+
+#top {
+float:left;
+width:30px;
+height:30px;
+margin-top:20px;
+padding:0 !important;
+border:none !important;
+background:transparent;
+
+}
+
+.top_button {
+padding:0 !important;
+border:none !important;
+
+}
+

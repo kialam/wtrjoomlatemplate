@@ -1,0 +1,1 @@
+Cufon.replace(' h3, h2, #quote p, .counter,.blog_more,.navigation a', { fontFamily: 'Bebas', hover:true });
